@@ -12,7 +12,7 @@ import DWBTestVC from './DWBTestVC'
 
 import DWBTButton from './DWBTButton'
 
-
+import LearningNavigation from './LearningNavigation'
 
 // import DWBSwipeout from './DWBSwipeout'
 
@@ -26,7 +26,7 @@ import DWBActionButton from './DWBActionButton'
 
 
 //修改这里可以切换不同的类显示： => App
-AppRegistry.registerComponent(appName, () => DWBFlatList);
+AppRegistry.registerComponent(appName, () => DWBSectionList);
 
 // react-native关闭所有黄色警告，将这两句话加在index.js文件中，放在AppRegistry.registerComponent('App', () => App)之前。
 console.ignoredYellowBox = ['Warning: BackAndroid is deprecated. Please use BackHandler instead.','source.uri should not be an empty string','Invalid props.style key'];

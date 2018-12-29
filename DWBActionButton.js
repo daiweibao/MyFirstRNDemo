@@ -18,7 +18,6 @@ export default class ActionButton extends Component {
                 </ButtonMy>
             </View>
 
-
         );
     }
 

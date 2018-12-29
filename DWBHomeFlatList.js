@@ -93,6 +93,9 @@ export default class MyFlatList extends Component {
     }
 }
 
+
+
+
 // //设置分割线
 // renderSeparator(){
 //     return (
